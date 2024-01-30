@@ -7,7 +7,7 @@ class Auto {
     private AjoneuvonToiminta toiminta; // Ajoneuvon toimintakomponentin sisällyttäminen
     private static int autojenMaara = 0; // Staattinen muuttuja auto-olioiden määrän laskemiseksi
 
-    public Auto(String nimi, String merkki) {
+    public Auto(String nimi, String merkki) { // Konstruktori jossa AjoneuvonToiminta-komponentti luodaan myös sekä kasvatetaan autojen määrän laskuria
         this.nimi = nimi;
         this.merkki = merkki;
         this.toiminta = new AjoneuvonToiminta(); // Komponentin instanssi
